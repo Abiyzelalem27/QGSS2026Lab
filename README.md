@@ -1,6 +1,6 @@
 
 
-# QGSS 2026 Lab
+# Qiskit Global Summer School 2026 (QGSS2026) 
 
 A structured collection of notebooks, solutions, reusable Python utilities, and tests developed for the **Qiskit Global Summer School 2026**.
 
@@ -71,7 +71,7 @@ QGSS2026Lab/
 │   ├── fake_torino_connectivity.png
 │   └── heavy_hex_vs_nighthawk.png
 │
-├── notebooks/
+├── problems/
 │   ├── QGSS2026_Lab0.ipynb
 │   ├── QGSS2026_Lab1.ipynb
 │   ├── QGSS2026_Lab2.ipynb
