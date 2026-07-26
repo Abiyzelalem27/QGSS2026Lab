@@ -66,6 +66,11 @@ their number of qubits.
 
 ```text
 QGSS2026Lab/
+├── images/
+│   ├── backend_hardware_trends.png
+│   ├── fake_torino_connectivity.png
+│   └── heavy_hex_vs_nighthawk.png
+│
 ├── notebooks/
 │   ├── QGSS2026_Lab0.ipynb
 │   ├── QGSS2026_Lab1.ipynb
