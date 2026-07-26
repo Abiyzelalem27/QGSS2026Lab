@@ -1,16 +1,21 @@
+
+
 [build-system]
-requires = ["setuptools>=69", "wheel"]
+requires = ["setuptools>=77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "qgss2026-lab"
-version = "0.1.0"
+name = "qgss2026"
+version = "0.2.0"
 description = "Quantum computing projects from QGSS 2026"
 readme = "README.md"
 requires-python = ">=3.10"
 
+license = "MIT"
+license-files = ["LICENSE"]
+
 authors = [
-    {name = "Abiy Zelalem Tegegne"}
+    { name = "Abiy Zelalem Tegegne" }
 ]
 
 dependencies = [
@@ -23,13 +28,19 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = [
-    "pytest",
+notebooks = [
     "jupyterlab",
+    "nbconvert",
+    "ipython",
+    "pandas",
+    "pylatexenc",
+    "mthree",
+    "qiskit-addon-opt-mapper",
+    "samplomatic",
+    "qiskit-addon-utils>=0.3",
+    "qiskit-addon-pna",
+    "qiskit-addon-slc",
 ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]

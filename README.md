@@ -95,13 +95,6 @@ QGSS2026Lab/
 │       ├── operators.py
 │       └── plotting.py
 │
-├── tests/
-│   ├── test_lab0.py
-│   ├── test_lab1.py
-│   ├── test_lab2.py
-│   ├── test_lab3.py
-│   └── test_lab4.py
-│
 ├── .gitignore
 ├── CHANGELOG.md
 ├── LICENSE
