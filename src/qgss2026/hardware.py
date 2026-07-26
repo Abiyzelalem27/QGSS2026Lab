@@ -1,12 +1,9 @@
 
 
-"""Utilities for inspecting IBM Quantum hardware backends."""
-
-from __future__ import annotations
-
-from typing import Any, Iterable
 import pandas as pd
 import numpy as np
+from __future__ import annotations
+from typing import Any, Iterable
 
 
 def _safe_value(function, *args):

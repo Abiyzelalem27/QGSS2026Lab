@@ -1,6 +1,7 @@
 
-from typing import Mapping
 
+
+from typing import Mapping
 import pandas as pd
 
 
@@ -33,7 +34,6 @@ def depol_survival_model(n, lam):
     """Return the expected survival probability after 2n noisy X gates."""
     return 0.5 + 0.5 * (1 - lam) ** (2 * n) 
 
-"""Result-analysis utilities for QGSS 2026."""
 
 def compare_count_distributions(
     ideal_counts: Mapping[str, int],

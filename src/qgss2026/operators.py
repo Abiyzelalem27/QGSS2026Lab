@@ -1,9 +1,7 @@
 
 
-"""Quantum-circuit operator utilities."""
 
 from qiskit import QuantumCircuit
-
 
 def count_swap_gates(circuit: QuantumCircuit) -> int:
     """

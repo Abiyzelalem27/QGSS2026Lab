@@ -1,12 +1,10 @@
 
 
 from collections.abc import Mapping
-
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.figure import Figure
 from qiskit import QuantumCircuit
-
 from .circuits import quantum_circuit_params
 
 

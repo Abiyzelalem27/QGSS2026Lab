@@ -1,9 +1,8 @@
 
 
-"""Noise-model and noisy-simulator utilities for QGSS 2026."""
+
 
 from __future__ import annotations
-
 from typing import Any
 from qiskit_aer import AerSimulator
 
